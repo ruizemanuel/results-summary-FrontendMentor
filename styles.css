@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 500px;
+    width: 750px;
+    border-radius: 25px;
+    box-shadow: 13px 10px 32px 0px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 13px 10px 32px 0px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 13px 10px 32px 0px rgba(0, 0, 0, 0.47);
+}
