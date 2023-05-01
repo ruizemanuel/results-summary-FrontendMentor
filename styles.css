@@ -1,4 +1,25 @@
-.container{
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    margin: 25px 0 10px 0;
+}
+
+h2{
+    color: hsl(241, 100%, 89%);
+    margin: 35px;
+}
+
+p{
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    margin: 0 55px;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +30,48 @@
     height: 500px;
     width: 750px;
     border-radius: 25px;
-    box-shadow: 13px 10px 32px 0px rgba(0, 0, 0, 0.47);
-    -webkit-box-shadow: 13px 10px 32px 0px rgba(0, 0, 0, 0.47);
-    -moz-box-shadow: 13px 10px 32px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 13px 10px 32px 0px hsla(221, 100%, 96%, 0.65);
+    -webkit-box-shadow: 13px 10px 32px 0px hsla(221, 100%, 96%, 0.65);
+    -moz-box-shadow: 13px 10px 32px 0px hsla(221, 100%, 96%, 0.65);
+}
+
+.gradient-card {
+    height: 100%;
+    width: 50%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: -webkit-linear-gradient(bottom, rgb(50, 39, 239) 0%, rgb(102, 60, 255) 80%, rgb(115, 64, 255) 100%);
+    background: -o-linear-gradient(bottom, rgb(50, 39, 239) 0%, rgb(102, 60, 255) 80%, rgb(115, 64, 255) 100%);
+    background: -ms-linear-gradient(bottom, rgb(50, 39, 239) 0%, rgb(102, 60, 255) 80%, rgb(115, 64, 255) 100%);
+    background: -moz-linear-gradient(bottom, rgb(50, 39, 239) 0%, rgb(102, 60, 255) 80%, rgb(115, 64, 255) 100%);
+    background: linear-gradient(to top, rgb(50, 39, 239) 0%, rgb(102, 60, 255) 80%, rgb(115, 64, 255) 100%);
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(bottom, rgb(76, 48, 246) 0%, rgb(87, 27, 209) 100%);
+    background: -o-linear-gradient(bottom, rgb(76, 48, 246) 0%, rgb(87, 27, 209) 100%);
+    background: -ms-linear-gradient(bottom, rgb(76, 48, 246) 0%, rgb(87, 27, 209) 100%);
+    background: -moz-linear-gradient(bottom, rgb(76, 48, 246) 0%, rgb(87, 27, 209) 100%);
+    background: linear-gradient(to top, rgb(76, 48, 246) 0%, rgb(87, 27, 209) 100%);
+}
+
+.num{
+    font-size: 60px;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.num2{
+    font-size: 18px;
+    color: hsla(241, 100%, 89%, 0.65)
 }
