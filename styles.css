@@ -2,17 +2,29 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
-h1{
+img {
+    margin-right: 10px;
+}
+
+h1 {
     color: hsl(0, 0%, 100%);
     margin: 25px 0 10px 0;
 }
 
-h2{
+h2 {
     color: hsl(241, 100%, 89%);
-    margin: 35px;
+    margin: 40px;
 }
 
-p{
+p {
+    font-size: 18px;
+}
+
+.flexible {
+    display: flex;
+}
+
+.parrafo {
     font-size: 18px;
     color: hsl(241, 100%, 89%);
     text-align: center;
@@ -30,6 +42,7 @@ p{
     height: 500px;
     width: 750px;
     border-radius: 25px;
+    display: flex;
     box-shadow: 13px 10px 32px 0px hsla(221, 100%, 96%, 0.65);
     -webkit-box-shadow: 13px 10px 32px 0px hsla(221, 100%, 96%, 0.65);
     -moz-box-shadow: 13px 10px 32px 0px hsla(221, 100%, 96%, 0.65);
@@ -64,14 +77,124 @@ p{
     background: linear-gradient(to top, rgb(76, 48, 246) 0%, rgb(87, 27, 209) 100%);
 }
 
-.num{
+.num {
     font-size: 60px;
     font-weight: 800;
     color: hsl(0, 0%, 100%);
     margin: 0;
 }
 
-.num2{
+.num2 {
     font-size: 18px;
     color: hsla(241, 100%, 89%, 0.65)
+}
+
+.card-derecho {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.summary {
+    width: 100%;
+    text-align: start;
+    font-size: 26px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.card-reaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 10px;
+    height: 55px;
+    width: 290px;
+    background-color: hsla(0, 100%, 67%, 0.05);
+    color: hsl(0, 100%, 67%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-memory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 10px;
+    height: 55px;
+    width: 290px;
+    background-color: hsla(39, 100%, 56%, 0.05);
+    color: hsl(39, 100%, 56%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-verbal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 10px;
+    height: 55px;
+    width: 290px;
+    background-color: hsla(166, 100%, 37%, 0.05);
+    color: hsl(166, 100%, 37%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-visual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 10px;
+    height: 55px;
+    width: 290px;
+    background-color: hsla(234, 85%, 45%, 0.05);
+    color: hsl(234, 85%, 45%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.parrafo-card {
+    margin-right: 5px;
+}
+
+.num3{
+    color: hsl(224, 30%, 27%);
+}
+
+.num4{
+    color: rgb(156, 154, 157)
+}
+
+.button {
+    height: 55px;
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    border-radius: 35px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: -webkit-linear-gradient(bottom, rgb(49, 44, 235) 0%, rgb(103, 59, 255) 80%, rgb(114, 68, 255) 100%);
+    background: -o-linear-gradient(bottom, rgb(49, 44, 235) 0%, rgb(103, 59, 255) 80%, rgb(114, 68, 255) 100%);
+    background: -ms-linear-gradient(bottom, rgb(49, 44, 235) 0%, rgb(103, 59, 255) 80%, rgb(114, 68, 255) 100%);
+    background: -moz-linear-gradient(bottom, rgb(49, 44, 235) 0%, rgb(103, 59, 255) 80%, rgb(114, 68, 255) 100%);
+    background: linear-gradient(to top, rgb(49, 44, 235) 0%, rgb(103, 59, 255) 80%, rgb(114, 68, 255) 100%);
 }
